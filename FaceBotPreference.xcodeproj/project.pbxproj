@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12A6425169FFC2E0007D7B8 /* FaceBotPreference.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */; };
 		B1579120169EE96300E2A8B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157911F169EE96300E2A8B1 /* Cocoa.framework */; };
 		B1579122169EE96300E2A8B1 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1579121169EE96300E2A8B1 /* PreferencePanes.framework */; };
 		B157912C169EE96300E2A8B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B157912A169EE96300E2A8B1 /* InfoPlist.strings */; };
 		B1579130169EE96300E2A8B1 /* FaceBotPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = B157912F169EE96300E2A8B1 /* FaceBotPreference.m */; };
-		B1579132169EE96300E2A8B1 /* FaceBotPreference.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B1579131169EE96300E2A8B1 /* FaceBotPreference.tiff */; };
 		B1579135169EE96300E2A8B1 /* FaceBotPreference.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1579133169EE96300E2A8B1 /* FaceBotPreference.xib */; };
+		B1579143169EFF4D00E2A8B1 /* FaceTimeBot.png in Resources */ = {isa = PBXBuildFile; fileRef = B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FaceBotPreference.tiff; sourceTree = "<group>"; };
 		B157911C169EE96300E2A8B1 /* FaceBotPreference.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBotPreference.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		B157911F169EE96300E2A8B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B1579121169EE96300E2A8B1 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -27,8 +29,8 @@
 		B157912D169EE96300E2A8B1 /* FaceBotPreference-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceBotPreference-Prefix.pch"; sourceTree = "<group>"; };
 		B157912E169EE96300E2A8B1 /* FaceBotPreference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceBotPreference.h; sourceTree = "<group>"; };
 		B157912F169EE96300E2A8B1 /* FaceBotPreference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBotPreference.m; sourceTree = "<group>"; };
-		B1579131169EE96300E2A8B1 /* FaceBotPreference.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FaceBotPreference.tiff; sourceTree = "<group>"; };
 		B1579134169EE96300E2A8B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FaceBotPreference.xib; sourceTree = "<group>"; };
+		B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaceTimeBot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +86,11 @@
 		B1579127169EE96300E2A8B1 /* FaceBotPreference */ = {
 			isa = PBXGroup;
 			children = (
+				B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */,
 				B157912E169EE96300E2A8B1 /* FaceBotPreference.h */,
 				B157912F169EE96300E2A8B1 /* FaceBotPreference.m */,
-				B1579131169EE96300E2A8B1 /* FaceBotPreference.tiff */,
 				B1579133169EE96300E2A8B1 /* FaceBotPreference.xib */,
+				B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */,
 				B1579128169EE96300E2A8B1 /* Supporting Files */,
 			);
 			path = FaceBotPreference;
@@ -125,6 +128,7 @@
 				B1579118169EE96300E2A8B1 /* Headers */,
 				B1579119169EE96300E2A8B1 /* Resources */,
 				B157911A169EE96300E2A8B1 /* Rez */,
+				B1579141169EFAAB00E2A8B1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -167,8 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B157912C169EE96300E2A8B1 /* InfoPlist.strings in Resources */,
-				B1579132169EE96300E2A8B1 /* FaceBotPreference.tiff in Resources */,
 				B1579135169EE96300E2A8B1 /* FaceBotPreference.xib in Resources */,
+				B1579143169EFF4D00E2A8B1 /* FaceTimeBot.png in Resources */,
+				B12A6425169FFC2E0007D7B8 /* FaceBotPreference.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +188,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1579141169EFAAB00E2A8B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# http://stackoverflow.com/questions/7375698/cant-run-preference-pane-application\ncp -a \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$USER_LIBRARY_DIR/PreferencePanes/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1579116169EE96300E2A8B1 /* Sources */ = {
@@ -313,6 +334,7 @@
 				B157913A169EE96300E2A8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

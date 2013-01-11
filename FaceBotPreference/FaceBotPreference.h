@@ -7,9 +7,37 @@
 //
 
 #import <PreferencePanes/PreferencePanes.h>
+#import <CoreFoundation/CoreFoundation.h>
 
-@interface FaceBotPreference : NSPreferencePane
+#define FACETIME_AUTO_ACCEPT        "AutoAcceptInvites"
+#define FACETIME_AUTO_ACCEPT_FROM   "AutoAcceptInvitesFrom"
+
+
+@interface FaceBotPreference : NSPreferencePane <NSTableViewDelegate> {
+    CFStringRef appID;
+    CFStringRef appIDFaceTime;
+    NSString *addressFromId;
+    NSMutableArray *addressFromList;
+}
+
+@property (nonatomic, strong) IBOutlet NSButton *flagAutoAnswer;
+@property (nonatomic, strong) IBOutlet NSTableView *addressTable;
+@property (nonatomic, strong) IBOutlet NSTableColumn *nameField, *contactField;
+@property (nonatomic, strong) IBOutlet NSTextField *inputContact;
 
 - (void)mainViewDidLoad;
+
+- (void)readSettings;
+
+- (IBAction)addAddress:(id)sender;
+- (IBAction)removeAddress:(id)sender;
+
+- (IBAction)changeAutoStatus:(id)sender;
+
+
+// tableView
+- (id) tableView:(NSTableView *)pTableViewObj objectValueForTableColumn:(NSTableColumn *)pTableColumn row:(int)pRowIndex;
+//- (void)tableView:(NSTableView *)pTableViewObj setObjectValue:(id)pObject forTableColumn:(NSTableColumn *)pTableColumn row:(int)pRowIndex;
+
 
 @end
