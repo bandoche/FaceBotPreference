@@ -2,10 +2,12 @@ FaceBotPreference
 =================
 
 OS X Preference pane for FaceTime AutoAnswer (hidden) function
+
 애플에서 제공하는 FaceTime의 자동 응답 기능을 설정하는 시스템 환경설정 기능입니다.
 
 ##How it works
 It manipulate com.apple.FaceTime.plist in your ~/Library/Preferences folder.
+
 com.apple.FaceTime.plist 파일을 수정하여 자동 응답 기능을 설정합니다.
 
 ##License
