@@ -65,17 +65,6 @@
 }
 
 
-- (NSDictionary *)createRecord
-{
-    NSMutableDictionary *record = [[NSMutableDictionary alloc] init];
-//    [record setObject:[nameField stringValue] forKey:@"Name"];
-//    [record setObject:[contactField stringValue] forKey:@"Contact"];
-//    [record autorelease];
-    return record;
-}
-
-
-
 - (IBAction)addAddress:(id)sender {
     NSLog(@"addAddress");
     // add to array
@@ -98,7 +87,6 @@
         // save to plist
         CFArrayRef fromList = CFArrayCreateCopy(kCFAllocatorDefault, (CFArrayRef)addressFromList);
         CFPreferencesSetAppValue( CFSTR(FACETIME_AUTO_ACCEPT_FROM), fromList, appIDFaceTime );
-//        CFPreferencesSynchronize(appIDFaceTime, kCFPreferencesAnyUser, kCFPreferencesAnyHost);
         CFPreferencesAppSynchronize(appIDFaceTime);
     }
 }
@@ -111,14 +99,13 @@
         CFPreferencesSetAppValue( CFSTR(FACETIME_AUTO_ACCEPT), kCFBooleanFalse, appIDFaceTime );
         NSLog(@"changeAutoStatus = Off");
     }
-//    CFPreferencesSynchronize(appIDFaceTime, kCFPreferencesAnyUser, kCFPreferencesAnyHost);
     CFPreferencesAppSynchronize(appIDFaceTime);
 }
 
 
 // 사이트 방문
 - (IBAction)visitWebsite:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://dev.bandoche.com/FaceBot"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://dev.bandoche.com/FaceBot?version=%@", [self bundleVersionNumber]]]];
 }
 
 

@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B12A6425169FFC2E0007D7B8 /* FaceBotPreference.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */; };
 		B1579120169EE96300E2A8B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157911F169EE96300E2A8B1 /* Cocoa.framework */; };
 		B1579122169EE96300E2A8B1 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1579121169EE96300E2A8B1 /* PreferencePanes.framework */; };
 		B157912C169EE96300E2A8B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B157912A169EE96300E2A8B1 /* InfoPlist.strings */; };
 		B1579130169EE96300E2A8B1 /* FaceBotPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = B157912F169EE96300E2A8B1 /* FaceBotPreference.m */; };
 		B1579135169EE96300E2A8B1 /* FaceBotPreference.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1579133169EE96300E2A8B1 /* FaceBotPreference.xib */; };
 		B1579143169EFF4D00E2A8B1 /* FaceTimeBot.png in Resources */ = {isa = PBXBuildFile; fileRef = B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */; };
+		B1E1B10A16A0E83D001BD605 /* FaceBotPreference.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B1E1B10916A0E83D001BD605 /* FaceBotPreference.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FaceBotPreference.tiff; sourceTree = "<group>"; };
 		B157911C169EE96300E2A8B1 /* FaceBotPreference.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBotPreference.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		B157911F169EE96300E2A8B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B1579121169EE96300E2A8B1 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -33,6 +32,7 @@
 		B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaceTimeBot.png; sourceTree = "<group>"; };
 		B15DFD4B16A017FC006DBF1F /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = ko.lproj/FaceBotPreference.xib; sourceTree = "<group>"; };
 		B15DFD4C16A017FC006DBF1F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1E1B10916A0E83D001BD605 /* FaceBotPreference.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FaceBotPreference.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,8 @@
 				B1579142169EFF4D00E2A8B1 /* FaceTimeBot.png */,
 				B157912E169EE96300E2A8B1 /* FaceBotPreference.h */,
 				B157912F169EE96300E2A8B1 /* FaceBotPreference.m */,
+				B1E1B10916A0E83D001BD605 /* FaceBotPreference.tiff */,
 				B1579133169EE96300E2A8B1 /* FaceBotPreference.xib */,
-				B12A6424169FFC2E0007D7B8 /* FaceBotPreference.tiff */,
 				B1579128169EE96300E2A8B1 /* Supporting Files */,
 			);
 			path = FaceBotPreference;
@@ -176,7 +176,7 @@
 				B157912C169EE96300E2A8B1 /* InfoPlist.strings in Resources */,
 				B1579135169EE96300E2A8B1 /* FaceBotPreference.xib in Resources */,
 				B1579143169EFF4D00E2A8B1 /* FaceTimeBot.png in Resources */,
-				B12A6425169FFC2E0007D7B8 /* FaceBotPreference.tiff in Resources */,
+				B1E1B10A16A0E83D001BD605 /* FaceBotPreference.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
