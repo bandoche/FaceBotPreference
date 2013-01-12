@@ -14,13 +14,13 @@
 
 - (void)mainViewDidLoad
 {
-    NSLog(@"It works!");
+//    NSLog(@"It works!");
     [self readSettings];
 }
 
 - (id)initWithBundle:(NSBundle *)bundle
 {
-    NSLog(@"initWithBundle works!");
+//    NSLog(@"initWithBundle works!");
     if ( ( self = [super initWithBundle:bundle] ) != nil ) {
         appID = CFSTR("com.bandoche.FaceBotPreference");
         appIDFaceTime = CFSTR("com.apple.FaceTime");
@@ -32,7 +32,7 @@
 }
 
 - (void)readSettings {
-    NSLog(@"readSettings");
+//    NSLog(@"readSettings");
 //    CFPreferencesSynchronize(appIDFaceTime, kCFPreferencesAnyUser, kCFPreferencesAnyHost);
     CFPreferencesAppSynchronize(appIDFaceTime);
     
@@ -55,9 +55,9 @@
 //        CFArrayGetValues(fromList, CFRangeMake(0, CFArrayGetCount(value)), &value);
         fromList = value;
         [addressFromList addObjectsFromArray:[(NSArray *)fromList mutableCopy]];
-        NSLog(@"readSetting: %ld address(s) found", [addressFromList count]);
+//        NSLog(@"readSetting: %ld address(s) found", [addressFromList count]);
     } else {
-        NSLog(@"readSetting: no address list found");
+//        NSLog(@"readSetting: no address list found");
     }
     if ( value ) CFRelease(value);
     
@@ -66,7 +66,7 @@
 
 
 - (IBAction)addAddress:(id)sender {
-    NSLog(@"addAddress");
+//    NSLog(@"addAddress");
     // add to array
     [addressFromList addObject:[inputContact stringValue]];
     [inputContact setStringValue:@""];
@@ -78,7 +78,7 @@
     CFPreferencesAppSynchronize(appIDFaceTime);
 }
 - (IBAction)removeAddress:(id)sender {
-    NSLog(@"removeAddress");
+//    NSLog(@"removeAddress");
     if ([[addressTable selectedRowIndexes] count] == 0) {
         return;
     } else {
@@ -94,10 +94,10 @@
 - (IBAction)changeAutoStatus:(id)sender {
     if ([flagAutoAnswer state]) {
         CFPreferencesSetAppValue( CFSTR(FACETIME_AUTO_ACCEPT), kCFBooleanTrue, appIDFaceTime );
-        NSLog(@"changeAutoStatus = On");
+//        NSLog(@"changeAutoStatus = On");
     }    else {
         CFPreferencesSetAppValue( CFSTR(FACETIME_AUTO_ACCEPT), kCFBooleanFalse, appIDFaceTime );
-        NSLog(@"changeAutoStatus = Off");
+//        NSLog(@"changeAutoStatus = Off");
     }
     CFPreferencesAppSynchronize(appIDFaceTime);
 }
@@ -114,7 +114,7 @@
     NSString *versionNumber = [[[NSBundle bundleWithIdentifier:
                                FF_PREFPANE_BUNDLE_IDENTIFIER] infoDictionary]\
                              valueForKey:@"CFBundleVersion"];
-    NSLog(@"version: %@", versionNumber);
+//    NSLog(@"version: %@", versionNumber);
     return versionNumber;
 } 
 
