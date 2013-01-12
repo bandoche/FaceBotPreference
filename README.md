@@ -15,7 +15,7 @@ You can download at following link.
 
 아래 주소에서 받을 수 있습니다.
 
-http://facebot-preference.googlecode.com/files/FaceBot-0.1.zip
+http://code.google.com/p/facebot-preference/downloads/detail?name=FaceBot-0.1.zip&can=2&q=
 
 ##Version
 ###v0.1
