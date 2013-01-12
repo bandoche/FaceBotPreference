@@ -10,6 +10,13 @@ It manipulate com.apple.FaceTime.plist in your ~/Library/Preferences folder.
 
 com.apple.FaceTime.plist 파일을 수정하여 자동 응답 기능을 설정합니다.
 
+##Download
+You can download at following link.
+
+아래 주소에서 받을 수 있습니다.
+
+http://blog.bandoche.com/598
+
 ##Version
 ###v0.1
 Initial version
