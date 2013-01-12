@@ -15,7 +15,7 @@ You can download at following link.
 
 아래 주소에서 받을 수 있습니다.
 
-http://blog.bandoche.com/598
+http://facebot-preference.googlecode.com/files/FaceBot-0.1.zip
 
 ##Version
 ###v0.1
