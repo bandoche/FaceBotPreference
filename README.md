@@ -14,7 +14,7 @@ com.apple.FaceTime.plist 파일을 수정하여 자동 응답 기능을 설정�
 ###v0.1
 Initial version
 
-##Licens
+##License
 
 Licensed under the MIT License.
 
