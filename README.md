@@ -10,7 +10,11 @@ It manipulate com.apple.FaceTime.plist in your ~/Library/Preferences folder.
 
 com.apple.FaceTime.plist 파일을 수정하여 자동 응답 기능을 설정합니다.
 
-##License
+##Version
+###v0.1
+Initial version
+
+##Licens
 
 Licensed under the MIT License.
 
