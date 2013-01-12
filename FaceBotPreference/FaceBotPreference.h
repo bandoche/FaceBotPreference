@@ -11,6 +11,7 @@
 
 #define FACETIME_AUTO_ACCEPT        "AutoAcceptInvites"
 #define FACETIME_AUTO_ACCEPT_FROM   "AutoAcceptInvitesFrom"
+#define FF_PREFPANE_BUNDLE_IDENTIFIER @"com.bandoche.FaceBotPreference"
 
 
 @interface FaceBotPreference : NSPreferencePane <NSTableViewDelegate> {
@@ -31,9 +32,10 @@
 
 - (IBAction)addAddress:(id)sender;
 - (IBAction)removeAddress:(id)sender;
-
 - (IBAction)changeAutoStatus:(id)sender;
 
+- (IBAction)visitWebsite:(id)sender;
+- (NSString *)bundleVersionNumber;
 
 // tableView
 - (id) tableView:(NSTableView *)pTableViewObj objectValueForTableColumn:(NSTableColumn *)pTableColumn row:(int)pRowIndex;

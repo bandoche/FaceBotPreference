@@ -62,7 +62,7 @@
 						<object class="NSButton" id="938102104">
 							<reference key="NSNextResponder" ref="1037298196"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{18, 106}, {201, 18}}</string>
+							<string key="NSFrame">{{32, 106}, {168, 18}}</string>
 							<reference key="NSSuperview" ref="1037298196"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="698825933"/>
@@ -71,7 +71,7 @@
 							<object class="NSButtonCell" key="NSCell" id="678355382">
 								<int key="NSCellFlags">-2080374784</int>
 								<int key="NSCellFlags2">0</int>
-								<string key="NSContents">Allow Auto Answer Facetime</string>
+								<string key="NSContents">자동으로 FaceTime 응답</string>
 								<object class="NSFont" key="NSSupport" id="686099983">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
@@ -141,7 +141,7 @@
 													<object class="NSTableHeaderCell" key="NSHeaderCell">
 														<int key="NSCellFlags">75497536</int>
 														<int key="NSCellFlags2">2048</int>
-														<string key="NSContents">Contact</string>
+														<string key="NSContents">연락처</string>
 														<object class="NSFont" key="NSSupport">
 															<string key="NSName">LucidaGrande</string>
 															<double key="NSSize">11</double>
@@ -171,12 +171,12 @@
 															<int key="NSColorSpace">6</int>
 															<string key="NSCatalogName">System</string>
 															<string key="NSColorName">controlBackgroundColor</string>
-															<object class="NSColor" key="NSColor" id="786669233">
+															<object class="NSColor" key="NSColor" id="61885060">
 																<int key="NSColorSpace">3</int>
 																<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 															</object>
 														</object>
-														<object class="NSColor" key="NSTextColor" id="524295155">
+														<object class="NSColor" key="NSTextColor" id="282403146">
 															<int key="NSColorSpace">6</int>
 															<string key="NSCatalogName">System</string>
 															<string key="NSColorName">controlTextColor</string>
@@ -246,7 +246,7 @@
 									<string key="NSFrame">{{1, 210}, {405, 16}}</string>
 									<reference key="NSSuperview" ref="698825933"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="22529668"/>
+									<reference key="NSNextKeyView" ref="984071923"/>
 									<string key="NSReuseIdentifierKey">_NS:60</string>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 									<int key="NSsFlags">1</int>
@@ -382,7 +382,7 @@
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents"/>
 								<reference key="NSSupport" ref="686099983"/>
-								<string key="NSPlaceholderString">Contact (Phone number or e-mail address)</string>
+								<string key="NSPlaceholderString">연락처</string>
 								<string key="NSCellIdentifier">_NS:9</string>
 								<reference key="NSControlView" ref="1072224191"/>
 								<bool key="NSDrawsBackground">YES</bool>
@@ -401,21 +401,22 @@
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
-						<object class="NSButton" id="369811305">
+						<object class="NSButton" id="62481060">
 							<reference key="NSNextResponder" ref="1037298196"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{480, 18}, {174, 32}}</string>
+							<string key="NSFrame">{{501, 18}, {153, 32}}</string>
 							<reference key="NSSuperview" ref="1037298196"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="124555421">
+							<object class="NSButtonCell" key="NSCell" id="782836992">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Visit FaceBot Website</string>
+								<string key="NSContents">FaceBot 사이트 방문</string>
 								<reference key="NSSupport" ref="686099983"/>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="369811305"/>
+								<reference key="NSControlView" ref="62481060"/>
 								<int key="NSButtonFlags">-2038284288</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -425,29 +426,29 @@
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
-						<object class="NSTextField" id="22529668">
+						<object class="NSTextField" id="984071923">
 							<reference key="NSNextResponder" ref="1037298196"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{238, 27}, {243, 17}}</string>
+							<string key="NSFrame">{{238, 29}, {264, 17}}</string>
 							<reference key="NSSuperview" ref="1037298196"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="369811305"/>
+							<reference key="NSNextKeyView" ref="62481060"/>
 							<string key="NSReuseIdentifierKey">_NS:1535</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="298059953">
+							<object class="NSTextFieldCell" key="NSCell" id="646602716">
 								<int key="NSCellFlags">68157504</int>
 								<int key="NSCellFlags2">71304192</int>
 								<string key="NSContents">Label</string>
 								<reference key="NSSupport" ref="686099983"/>
 								<string key="NSCellIdentifier">_NS:1535</string>
-								<reference key="NSControlView" ref="22529668"/>
+								<reference key="NSControlView" ref="984071923"/>
 								<object class="NSColor" key="NSBackgroundColor">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
 									<string key="NSColorName">controlColor</string>
-									<reference key="NSColor" ref="786669233"/>
+									<reference key="NSColor" ref="61885060"/>
 								</object>
-								<reference key="NSTextColor" ref="524295155"/>
+								<reference key="NSTextColor" ref="282403146"/>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
@@ -533,7 +534,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">visitWebsite:</string>
 						<reference key="source" ref="294453543"/>
-						<reference key="destination" ref="124555421"/>
+						<reference key="destination" ref="62481060"/>
 					</object>
 					<int key="connectionID">146</int>
 				</object>
@@ -564,22 +565,22 @@
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">displayPatternValue1: bundleVersionNumber</string>
-						<reference key="source" ref="22529668"/>
+						<reference key="source" ref="984071923"/>
 						<reference key="destination" ref="294453543"/>
 						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="22529668"/>
+							<reference key="NSSource" ref="984071923"/>
 							<reference key="NSDestination" ref="294453543"/>
 							<string key="NSLabel">displayPatternValue1: bundleVersionNumber</string>
 							<string key="NSBinding">displayPatternValue1</string>
 							<string key="NSKeyPath">bundleVersionNumber</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSDisplayPattern</string>
-								<string key="NS.object.0">You're using FaceBot %{value1}@</string>
+								<string key="NS.object.0">FaceBot %{value1}@ 버전을 사용중입니다.</string>
 							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">157</int>
+					<int key="connectionID">158</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -617,12 +618,12 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="698825933"/>
 							<reference ref="639469047"/>
-							<reference ref="728992682"/>
-							<reference ref="1008699781"/>
-							<reference ref="1072224191"/>
 							<reference ref="938102104"/>
-							<reference ref="369811305"/>
-							<reference ref="22529668"/>
+							<reference ref="728992682"/>
+							<reference ref="1072224191"/>
+							<reference ref="1008699781"/>
+							<reference ref="62481060"/>
+							<reference ref="984071923"/>
 						</array>
 						<reference key="parent" ref="660800786"/>
 					</object>
@@ -746,29 +747,29 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">144</int>
-						<reference key="object" ref="369811305"/>
+						<reference key="object" ref="62481060"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="124555421"/>
+							<reference ref="782836992"/>
 						</array>
 						<reference key="parent" ref="1037298196"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">145</int>
-						<reference key="object" ref="124555421"/>
-						<reference key="parent" ref="369811305"/>
+						<reference key="object" ref="782836992"/>
+						<reference key="parent" ref="62481060"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">147</int>
-						<reference key="object" ref="22529668"/>
+						<reference key="object" ref="984071923"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="298059953"/>
+							<reference ref="646602716"/>
 						</array>
 						<reference key="parent" ref="1037298196"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">148</int>
-						<reference key="object" ref="298059953"/>
-						<reference key="parent" ref="22529668"/>
+						<reference key="object" ref="646602716"/>
+						<reference key="parent" ref="984071923"/>
 					</object>
 				</array>
 			</object>
@@ -805,7 +806,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">157</int>
+			<int key="maxID">158</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

@@ -116,6 +116,22 @@
 }
 
 
+// 사이트 방문
+- (IBAction)visitWebsite:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://dev.bandoche.com/FaceBot"]];
+}
+
+
+// 버전 반환
+- (NSString *)bundleVersionNumber {
+    NSString *versionNumber = [[[NSBundle bundleWithIdentifier:
+                               FF_PREFPANE_BUNDLE_IDENTIFIER] infoDictionary]\
+                             valueForKey:@"CFBundleVersion"];
+    NSLog(@"version: %@", versionNumber);
+    return versionNumber;
+} 
+
+
 
 // tableView
 
